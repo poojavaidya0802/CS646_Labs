@@ -10,9 +10,6 @@ import kotlin.math.ceil
 
 const val SLICES_PER_PIZZA = 8
 
-/**
- *
- */
 class MainActivity : AppCompatActivity() {
 
     private lateinit var numAttendEditText: EditText
@@ -20,7 +17,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var howHungryRadioGroup: RadioGroup
 
     /**
+     * TODO
      *
+     * @param savedInstanceState
      */
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,35 +30,25 @@ class MainActivity : AppCompatActivity() {
     }
 
     /**
-     * TODO
+     * This function gets string input from user and converts it to integer to calculate number
+     * of pizzas and displays the answer.
      *
      * @param view
      */
     fun calculateClick(view: View) {
-
- /*        Get the text that was typed
-           into the EditText*/
-
+        /* Fetch user input and convert it to int*/
         val numAttendStr = numAttendEditText.text.toString()
-
-/*        Convert the text
-        into an integer*/
-
         val numAttend = numAttendStr.toInt()
 
-/*        Determine how many slices on
-        average each person will eat*/
-
+        /* Calculate total number of pizzas required*/
         val slicesPerPerson = when (howHungryRadioGroup.checkedRadioButtonId) {
             R.id.light_radio_button -> 2
             R.id.medium_radio_button -> 3
             else -> 4
         }
-
-/*        Calculate and show
-        the number of pizzas needed*/
-
         val totalPizzas = ceil(numAttend * slicesPerPerson / SLICES_PER_PIZZA.toDouble()).toInt()
+
+        /* Display number of pizzas*/
         numPizzasTextView.text = "Total pizzas: $totalPizzas"
     }
 }
