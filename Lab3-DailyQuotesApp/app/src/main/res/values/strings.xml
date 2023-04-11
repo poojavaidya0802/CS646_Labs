@@ -1,22 +1,14 @@
 <resources>
     <string name="app_name">DailyQuotes</string>
     <string-array name="quotes">
-        <item>What do kids play when their mom is using the phone? Bored games.</item>
-        <item>What do you call an ant who fights crime? A vigilANTe!</item>
-        <item>Why are snails slow? Because they’re carrying a house on their back.</item>
-        <item>What’s the smartest insect? A spelling bee!</item>
-        <item>What does a storm cloud wear under his raincoat? Thunderwear.</item>
-        <item>What is fast, loud and crunchy? A rocket chip.</item>
-        <item>How does the ocean say hi? It waves!</item>
-        <item>What do you call a couple of chimpanzees sharing an Amazon account? PRIME-mates.</item>
-        <item>Why did the teddy bear say no to dessert? Because she was stuffed.</item>
-        <item>Why did the soccer player take so long to eat dinner? Because he thought he couldn’t use his hands.</item>
-        <item>Name the kind of tree you can hold in your hand? A palm tree!</item>
-        <item>What do birds give out on Halloween? Tweets.</item>
-        <item>What has ears but cannot hear? A cornfield.</item>
-        <item>What’s a cat’s favorite dessert? A bowl full of mice-cream.</item>
-        <item>Where did the music teacher leave her keys? In the piano!</item>
-        <item>What did the policeman say to his hungry stomach? “Freeze. You’re under a vest.”</item>
+        <item>Keep relations, which change your situations, not ones which itself gets changed according to situations.</item>
+        <item>No one is too much busy. It’s all about importance you have in their life.</item>
+        <item>Trust goes out from the same door, from which the doubt comes in.</item>
+        <item>In your worst days; often you get the help from the one you never expected.</item>
+        <item>Negative perception and wrong judgement astray a man in every relationships.</item>
+        <item>Advise of a loser, experience of a winner and your own decisions will never let you fail in life.</item>
+        <item>God tests you through blessings as well as challenges.</item>
+        <item>You can put your phone calls on hold… but not the relations.</item>
     </string-array>
 
     <string name="next">next quote</string>
